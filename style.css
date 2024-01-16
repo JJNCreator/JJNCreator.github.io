@@ -114,3 +114,7 @@ p
   clear: both;
   display: table;
 }
+.title
+{
+  text-align: center;
+}
