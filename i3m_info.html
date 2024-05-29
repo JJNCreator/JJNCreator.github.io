@@ -22,12 +22,24 @@
         and interact with other users. Product launched May 2021.
     </p>
     <br></br>
+    <h1>Contributions</h1>
     <p>
-        Contributions: Mechanics, dynamic assets handling, multiplayer networking, platform testing, PC VR implementation, managing Git repository, bug fixing
+        Mechanics, dynamic assets handling, multiplayer networking, platform testing, PC VR implementation, managing Git repository, bug fixing
     </p>
+    <h1>Software used</h1>
     <p>
-        Software used: Unity, Visual Studio, Photoshop, OpenXR, Blender, Photon Unity Networking, Photon Voice, Git, Amazon CodeCommit
+        Unity, Visual Studio, Photoshop, OpenXR, Blender, Photon Unity Networking, Photon Voice, Git, Amazon CodeCommit, Amazon S3
     </p>
+    <h1>Technical challenges</h1>
+    <p>The two biggest challenges were getting the Addressables (layer on top of AssetBundles) to work 
+        and getting the vehicles to work. The Addressables were used for uploading/downloading remote AssetBundles from S3 
+    to load content dynamically. This occasionally had some issues such as memory leaks, low frame rates, and disconnects. 
+The vehicles (which the player could interact with and drive in) were difficult to set up at first, but they improved after a 
+few iterations. </p>
+<h1>Lessons learned</h1>
+<p>Being on a smaller team can be a challenge. Communication is key in this scenario. I also learned to have code reviews 
+    with the other developers and artists.
+</p>
     <a href="https://i3m.tv/" target="_blank" rel="noopener noreferrer">Website</a>
     <br></br>
     <a href="index.html">Back</a>
